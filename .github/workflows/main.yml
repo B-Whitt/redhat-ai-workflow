@@ -32,3 +32,7 @@ jobs:
       # pre-commit runs mypy on critical files (config_loader, parsers,
       # validators); full codebase mypy compliance is tracked separately
       VALIDATE_PYTHON_MYPY: "false"
+      # Disable CSS validation - VSCode theme variables use camelCase
+      # (e.g., --vscode-sideBar-background) which conflicts with
+      # stylelint kebab-case enforcement
+      VALIDATE_CSS: "false"
