@@ -6,6 +6,9 @@
         "max-line-length": null,
         "declaration-block-single-line-max-declarations": null,
         "no-duplicate-selectors": null,
-        "keyframes-name-pattern": null
+        "keyframes-name-pattern": null,
+        "custom-property-pattern": null,
+        "color-hex-case": "lower",
+        "string-quotes": "double"
     }
 }
